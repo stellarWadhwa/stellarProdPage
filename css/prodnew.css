@@ -1,0 +1,79 @@
+.switch {
+    display: inline-block;
+    height: 25px;
+    position: relative;
+    width: 50px;
+  }
+  
+  .switch input {
+    display:none;
+  }
+  
+  .slider {
+  border:1px solid #ccc;
+    bottom: 0;
+    cursor: pointer;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    background-color: #fff;
+    bottom: 1px;
+    content: "";
+    height: 20px;
+    left: 2px;
+    position: absolute;
+    transition: .4s;
+    width: 20px;
+  }
+  
+  
+  input:checked + .slider:before {
+    transform: translateX(24px);
+  }
+  
+  .slider.round {
+    border-radius: 34px;
+   
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+   background-image: -webkit-linear-gradient( -52deg, rgb(228,61,76) 0%, rgb(57,86,139) 99%);
+  }
+  #windowsLabel {
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  
+  #macLabel {
+    font-weight: normal;
+    color:#c9c9c9;
+    margin-left: 10px;
+  }
+  .sliderBanner{background: #fff2f3; padding:2rem;border-radius: 10px;}
+  .sliderBanner h6{color:#e11f26;font-weight: 700;}
+  .sliderBanner h5{font-weight: 700;}
+  .sliderBanner p{color:#505050}
+.heroCategory ul{list-style: none;padding-left: 0;}
+.heroCategory ul li{padding: 0.5rem 0rem;}
+.heroCategory ul li span{font-weight: 600;color: #555555;}
+.heroCategoryParent h5{font-weight: 700;padding: 1rem 0rem;}
+.heroCategoryParent{ background: #aecaf6;border-radius:10px}
+.productList h3{font-weight: 600;padding: 1rem 0rem;}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
